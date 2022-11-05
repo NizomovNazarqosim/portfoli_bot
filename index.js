@@ -23,7 +23,7 @@ bot.onText(/\/start/, msg =>{
 bot.on("message", msg =>{
     const chatId = msg.chat.id
     if(msg.text=="Men haqimda 👱‍♂️"){
-        bot.sendPhoto(chatId, './me.jpg', {
+        bot.sendPhoto(chatId, './download.jfif', {          
             caption:`
              <i>My fullname is Nizomov Nazarqosim. I am a full-stack developer and financier</i>\n<span class="tg-spoiler">Awesome</span>
             `,
